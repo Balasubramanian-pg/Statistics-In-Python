@@ -139,7 +139,7 @@ Let's build your roadmap.
 
 ---
 
-### **Tech Lead's Final Advice**
+### **I wish someone had done this for me when i started my career**
 
 *   **Focus on Interpretation:** For every project, the code is only 30% of the work. The other 70% is interpreting the results in plain English. What does the p-value *mean*? What is the business implication? Why did you choose this test? What are its assumptions?
 *   **Check Assumptions:** For every test, make it a habit to list its assumptions (e.g., normality, independence, equal variances) and write code to check them. This is what separates amateurs from professionals.
