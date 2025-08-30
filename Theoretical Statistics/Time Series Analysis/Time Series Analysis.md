@@ -1,0 +1,4 @@
+- [[Components of time series data - trend, seasonality, cyclical, and irregular]]
+- [[Projects/Stats Roadmap/Time Series Analysis/ARIMA models]]
+- [[Projects/Stats Roadmap/Time Series Analysis/Forecasting techniques]]
+-
