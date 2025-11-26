@@ -4,8 +4,6 @@
 
 The main problem they solve is providing a **valid statistical conclusion** even when the requirements for traditional tests, such as a normal distribution, cannot be met.
 
----
-
 ## Table of Contents
 
 * **Understanding Parametric vs. Non-parametric Tests**
@@ -16,8 +14,6 @@ The main problem they solve is providing a **valid statistical conclusion** even
     * **Friedman Test (Three or More Dependent/Paired Samples)**
 * **The Python Ecosystem (SciPy)**
 * **Application Summary**
-
----
 
 ## Understanding Parametric vs. Non-parametric Tests
 
@@ -31,8 +27,6 @@ Imagine you are comparing the income of two groups. If the income data has a few
 
 **What You Must Understand:**
 The core idea is **robustness**. Non-parametric tests are more robust against violations of distributional assumptions. Their primary mechanism is often using **ranks** instead of the original raw scores.
-
----
 
 ## Key Non-parametric Tests
 
@@ -88,8 +82,6 @@ The functions are usually named after the test, making them easy to find. You wi
 
 [!TIP]
 For the Kruskal-Wallis and Friedman tests, SciPy gives you the overall test result. You will often need to use a separate library (like `scikit-posthocs`) for the **post-hoc analysis** to pinpoint where the differences lie.
-
----
 
 ## Application Summary
 
