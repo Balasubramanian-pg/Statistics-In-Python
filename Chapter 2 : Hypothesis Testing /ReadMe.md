@@ -1,7 +1,5 @@
 This content summarizes common statistical hypothesis tests.
 
-***
-
 ### One-Sample T-Test
 
 This test determines if the mean of a single **sample** is different from a specific **hypothesized value** or a known population mean.
@@ -9,8 +7,6 @@ This test determines if the mean of a single **sample** is different from a spec
 * **Goal:** Compare one group mean to a standard.
 * **Data Type:** The variable must be **continuous** (interval or ratio).
 * **Use Case:** Assessing if a new production batch's average weight meets the 100-gram target.
-
-***
 
 ### Independent Samples T-Test
 
@@ -20,8 +16,6 @@ Also known as the Two-Sample T-Test, this procedure compares the means of two **
 * **Key Feature:** Groups are separate; the data from one group does not influence the other (e.g., Men vs. Women).
 * **Use Case:** Testing if two different teaching methods result in different average test scores.
 
-***
-
 ### Paired Samples T-Test
 
 This test compares the means of two sets of observations that are **related** or dependent. It often involves measuring the same subjects under two different conditions or at two time points.
@@ -29,8 +23,6 @@ This test compares the means of two sets of observations that are **related** or
 * **Goal:** Compare the mean **difference** between paired observations (e.g., before and after).
 * **Key Feature:** Each data point in one set is directly linked to a data point in the second set.
 * **Use Case:** Evaluating a drug's effectiveness by comparing patient blood pressure before treatment and after treatment.
-
-***
 
 ### Analysis of Variance (ANOVA)
 
@@ -40,8 +32,6 @@ ANOVA is a test used to compare the means of **three or more** independent group
 * **Output:** Provides an overall **F-statistic** to show if any difference exists. It does not indicate which specific pairs differ.
 * **Use Case:** Comparing the average crop yield resulting from three distinct fertilizer types.
 
-***
-
 ### Post-Hoc Tests (e.g., Tukey's HSD)
 
 These tests are typically run **after** a significant ANOVA result. Their **purpose** is to conduct pairwise comparisons among all groups while controlling the **Type I error rate** (false positive).
@@ -50,8 +40,6 @@ These tests are typically run **after** a significant ANOVA result. Their **purp
 * **Goal:** Identify **which specific pairs** of group means are significantly different from each other.
 * **Process:** Compares all possible mean pairs based on the overall ANOVA result.
 
-***
-
 ### Chi-Squared Test for Independence
 
 This is a **nonparametric** test used to determine if there is a relationship (association) between **two categorical variables**.
@@ -59,8 +47,6 @@ This is a **nonparametric** test used to determine if there is a relationship (a
 * **Goal:** Check if two categorical variables are independent.
 * **Data Type:** Uses **counts** or frequencies in a contingency table.
 * **Use Case:** Testing if there is a relationship between a person's preferred soft drink (Coke, Pepsi, Sprite) and their geographic region (North, South, West).
-
-***
 
 ### Proportion Z-Test (One and Two Sample)
 
