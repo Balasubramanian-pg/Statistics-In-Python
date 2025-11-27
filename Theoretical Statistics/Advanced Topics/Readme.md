@@ -17,7 +17,7 @@ This document covers three advanced statistical topics that extend beyond basic 
 
 **Definition:** A Generalized Linear Model (GLM) is a flexible framework that generalizes ordinary linear regression. It allows the mean of the dependent variable to be related to the linear predictor (the combination of predictors and coefficients) via a **link function**, and it allows the response variable's variance to be related to the mean via a **variance function**.
 
->[!INFO]
+>[!note]
 >GLMs are essential when your response variable is **not normally distributed**, such as counts, proportions, or binary outcomes.
 
 **Real Life Example:** Predicting whether a customer **will click an ad (Yes/No)**.
@@ -59,7 +59,7 @@ This document covers three advanced statistical topics that extend beyond basic 
 
 **Definition:** Mixed-Effects Models, often called **Multilevel Models** or **Hierarchical Linear Models (HLM)**, are statistical models that contain both **fixed effects** (which are the conventional population parameters) and **random effects** (which are subject-specific variations). They are a primary tool for analyzing longitudinal and other clustered/grouped data.
 
->[!INFO]
+>[!tip]
 >Mixed-effects models effectively handle the dependency in longitudinal data by treating the individual subject as a source of **random variation**.
 
 **Real Life Example:** Continuing the blood pressure example, we can model:
@@ -73,7 +73,7 @@ This document covers three advanced statistical topics that extend beyond basic 
 
 ### 4. Mark Essential vs Optional Sections
 
->[!INFO]
+>[!caution]
 >Understanding the relationship between the link function, distribution, and linear predictor in a **GLM** is a **core concept** in statistical modeling.
 
 >[!TIP]
