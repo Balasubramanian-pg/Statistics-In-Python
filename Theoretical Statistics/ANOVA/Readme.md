@@ -11,8 +11,6 @@
 * Post-hoc Tests (Essential Follow-up)
 * Application Summary (Core Recall)
 
-***
-
 ### 3. Create Sections for Each Main Component
 
 #### One-way ANOVA
@@ -32,10 +30,6 @@ This is the foundational test. You must first understand this to move to two-way
     * **Null Hypothesis ($H_0$):** All group means are equal.
     * **Alternative Hypothesis ($H_a$):** At least one group mean is different.
 
-
-
----
-
 #### Two-way ANOVA
 
 **Definition:** Two-way ANOVA is an extension of one-way ANOVA used when there are **two categorical independent variables** (two factors) that may influence a dependent variable. It assesses the main effect of each factor and the interaction effect between them.
@@ -53,8 +47,6 @@ Two-way ANOVA is more complex because it allows you to test for an **interaction
 2.  **Main Effect of Factor 2:** Is there a difference in sales due to **Experience Level**?
 3.  **Interaction Effect:** Does the effect of the **Training Method** depend on the **Experience Level**? (e.g., Maybe Online Training works well only for Seniors).
 
----
-
 ####  Post-hoc Tests
 
 **Definition:** Post-hoc tests are follow-up analyses performed **only after** an ANOVA (one-way or two-way) shows a statistically significant result. The ANOVA simply tells you that *a difference exists* somewhere among the group means, but a post-hoc test tells you **exactly which specific pairs of groups are different** from each other.
@@ -70,8 +62,6 @@ Never run a post-hoc test if your ANOVA result is *not* statistically significan
     * **Tukey's Honestly Significant Difference (HSD):** The most common and simple test for comparing all pairs of means.
     * **Bonferroni Correction:** A method that adjusts the p-values of multiple t-tests to strictly control the FWER.
     * **Scheffé's Method:** Used for more complex comparisons than just pairs.
-
----
 
 ### 4. Mark Essential vs Optional Sections
 
