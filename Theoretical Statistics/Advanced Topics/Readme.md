@@ -17,7 +17,7 @@ This document covers three advanced statistical topics that extend beyond basic 
 
 **Definition:** A Generalized Linear Model (GLM) is a flexible framework that generalizes ordinary linear regression. It allows the mean of the dependent variable to be related to the linear predictor (the combination of predictors and coefficients) via a **link function**, and it allows the response variable's variance to be related to the mean via a **variance function**.
 
-[!INFO]
+>[!INFO]
 >GLMs are essential when your response variable is **not normally distributed**, such as counts, proportions, or binary outcomes.
 
 **Real Life Example:** Predicting whether a customer **will click an ad (Yes/No)**.
