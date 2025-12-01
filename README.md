@@ -137,8 +137,6 @@ Let's build your roadmap.
     *   **Question:** "How can I draw a sample from a population in a way that ensures my sample is representative of key subgroups?"
     *   **Project Idea:** You have a population of university students (70% undergrad, 30% grad). Write a Python script to draw a sample of 100 students using stratified sampling, ensuring your sample also contains exactly 70 undergrads and 30 grads. Compare this to a simple random sample to show how the latter might be unbalanced by chance.
 
----
-
 ### **I wish someone had done this for me when i started my career**
 
 *   **Focus on Interpretation:** For every project, the code is only 30% of the work. The other 70% is interpreting the results in plain English. What does the p-value *mean*? What is the business implication? Why did you choose this test? What are its assumptions?
