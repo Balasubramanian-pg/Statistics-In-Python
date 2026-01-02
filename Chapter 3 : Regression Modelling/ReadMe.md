@@ -16,8 +16,6 @@ Multiple Linear Regression (MLR) extends SLR by incorporating two or more indepe
 * **Assumptions:** Requires the relationship to be linear, residuals to be normally distributed and exhibit homoscedasticity (constant variance), and low multicollinearity among predictors.
 * **Use Case:** Predicting house price based on square footage, number of bedrooms, and distance to the city center.
 
-***
-
 ## Logistic Regression
 
 Logistic Regression is a regression technique used for classification problems where the outcome variable is categorical.
