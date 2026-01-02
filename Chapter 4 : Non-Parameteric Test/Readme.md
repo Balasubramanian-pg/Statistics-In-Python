@@ -64,8 +64,6 @@ This test is used to detect differences in treatments across multiple test occas
 * **Real Life Example:** Having a group of ten users rate three different website layouts (Layout A, B, and C) on a non-normal usability score.
 * **Application:** The test ranks the data for each subject separately across the different conditions, then analyzes the sum of the ranks for each condition.
 
----
-
 ## The Python Ecosystem (SciPy)
 
 In Python, the **SciPy** library's `scipy.stats` module is the primary tool for performing non-parametric tests.
