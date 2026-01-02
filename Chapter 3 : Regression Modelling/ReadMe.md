@@ -25,8 +25,6 @@ Logistic Regression is a regression technique used for classification problems w
 * **Output:** The result is an estimated probability of the event occurring, which is then classified into one of the categories.
 * **Use Case:** Predicting whether a loan applicant will default (Yes/No) based on credit score, income, and debt history.
 
-***
-
 ## Residual Analysis for Regression
 
 Residual analysis is a diagnostic technique essential for validating the assumptions of a linear regression model.
