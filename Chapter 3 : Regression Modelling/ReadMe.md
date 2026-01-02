@@ -37,8 +37,6 @@ Residual analysis is a diagnostic technique essential for validating the assumpt
     * **Normality:** The residuals should be approximately normally distributed.
     * **Outliers:** Helps identify data points that do not follow the general pattern and may disproportionately affect the model.
 
-***
-
 To learn how to diagnose potential problems with your regression model, you can review this video on [Residual Analysis](https://www.youtube.com/watch?v=_IlAuhLPi30).
 
 
