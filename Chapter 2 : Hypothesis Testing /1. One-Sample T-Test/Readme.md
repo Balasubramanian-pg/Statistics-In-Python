@@ -1,5 +1,5 @@
 A **one-sample t-test** is a statistical test used to determine whether the mean of a single sample significantly differs from a known or hypothesized population mean. It’s commonly used when you want to compare your sample data to a standard or a theoretical value.
-## 10. When the One-Sample t-Test Is the Right Tool
+## When the One-Sample t-Test Is the Right Tool
 
 Use it when:
 
@@ -15,7 +15,7 @@ Examples:
 
 Do not use it when comparing two groups. That is a different test with a different error structure.
 
-## 11. Common Misuses and Traps
+## Common Misuses and Traps
 
 • Testing after peeking at the data repeatedly
 • Using one-sided tests without justification
