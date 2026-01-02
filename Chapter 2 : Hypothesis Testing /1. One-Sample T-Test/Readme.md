@@ -1,39 +1,46 @@
 A **one-sample t-test** is a statistical test used to determine whether the mean of a single sample significantly differs from a known or hypothesized population mean. It’s commonly used when you want to compare your sample data to a standard or a theoretical value.
+## 10. When the One-Sample t-Test Is the Right Tool
 
-## **When to Use a One-Sample T-Test**
-- You have **one continuous variable** (e.g., test scores, reaction times, weights).
-- You want to compare the **sample mean** to a **known or hypothesized population mean** (e.g., comparing the average score of a class to a national average).
-- Your data is **normally distributed** or your sample size is large enough (typically n > 30) for the Central Limit Theorem to apply.
+Use it when:
 
-## **Key Assumptions**
-1. **Normality**: The data should be approximately normally distributed. For small samples (n < 30), check normality using a Shapiro-Wilk test or Q-Q plots.
-2. **Independence**: Observations should be independent of each other.
-3. **Continuous Data**: The variable should be measured on an interval or ratio scale.
+• You have one group
+• You are comparing against a fixed benchmark
+• Variability must be estimated from the sample
 
-## **Hypotheses**
-- **Null Hypothesis (H₀)**: The sample mean is equal to the population mean.
-  \( H_0: \mu = \mu_0 \)
-- **Alternative Hypothesis (H₁)**: The sample mean is not equal to (or greater/less than) the population mean.
-  \( H_1: \mu \neq \mu_0 \) (two-tailed)
-  \( H_1: \mu > \mu_0 \) (one-tailed, right)
-  \( H_1: \mu < \mu_0 \) (one-tailed, left)
+Examples:
 
-## **Steps to Perform a One-Sample T-Test**
-1. **State your hypotheses** (null and alternative).
-2. **Set the significance level (α)**, usually 0.05.
-3. **Calculate the t-statistic**:
-   \[
-   t = \frac{\bar{X} - \mu_0}{s / \sqrt{n}}
-   \]
-   - \(\bar{X}\): Sample mean
-   - \(\mu_0\): Population mean
-   - \(s\): Sample standard deviation
-   - \(n\): Sample size
-4. **Determine the critical t-value** from the t-distribution table (based on degrees of freedom: \(df = n - 1\)).
-5. **Compare the t-statistic to the critical value** or calculate the p-value.
-6. **Make a decision**:
-   - If \(p \leq \alpha\), reject the null hypothesis.
-   - If \(p > \alpha\), fail to reject the null hypothesis.
+• Average delivery time vs SLA
+• Average exam score vs passing cutoff
+• Average sensor reading vs calibration value
+
+Do not use it when comparing two groups. That is a different test with a different error structure.
+
+## 11. Common Misuses and Traps
+
+• Testing after peeking at the data repeatedly
+• Using one-sided tests without justification
+• Ignoring effect size
+• Treating non-significance as proof of equality
+
+Absence of evidence is not evidence of absence.
+
+## Summary Mental Model
+
+The one-sample t-test is not a magical significance button.
+
+It is a disciplined way to ask:
+
+> “Given the noise I observe, is this difference too large to ignore?”
+
+It forces you to confront uncertainty instead of hand-waving it away.
+
+## Points That Require Care or Are Context-Dependent
+
+• Normality requirements depend on sample size
+• Effect size thresholds vary by domain
+• One-sided tests require pre-registered logic
+
+These are methodological choices, not universal constants.
 
 ## **Example**
 Suppose you want to test if the average height of a sample of 25 students is different from the national average of 170 cm.
