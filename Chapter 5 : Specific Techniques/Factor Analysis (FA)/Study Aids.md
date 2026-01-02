@@ -1,4 +1,4 @@
-## Factor Analysis (FA) — Extended Notes and Study Aids
+## Factor Analysis (FA) - Extended Notes and Study Aids
 
 These notes are meant to sit next to your original explanation as a deeper, more operational layer. Think of this as the stuff you wish textbooks said out loud instead of hiding in footnotes.
 
