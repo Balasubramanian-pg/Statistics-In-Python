@@ -3,24 +3,24 @@ A **one-sample t-test** is a statistical test used to determine whether the mean
 
 Use it when:
 
-• You have one group
-• You are comparing against a fixed benchmark
-• Variability must be estimated from the sample
+- You have one group
+- You are comparing against a fixed benchmark
+- Variability must be estimated from the sample
 
 Examples:
 
-• Average delivery time vs SLA
-• Average exam score vs passing cutoff
-• Average sensor reading vs calibration value
+- Average delivery time vs SLA
+- Average exam score vs passing cutoff
+- Average sensor reading vs calibration value
 
 Do not use it when comparing two groups. That is a different test with a different error structure.
 
 ## Common Misuses and Traps
 
-• Testing after peeking at the data repeatedly
-• Using one-sided tests without justification
-• Ignoring effect size
-• Treating non-significance as proof of equality
+- Testing after peeking at the data repeatedly
+- Using one-sided tests without justification
+- Ignoring effect size
+- Treating non-significance as proof of equality
 
 Absence of evidence is not evidence of absence.
 
@@ -36,9 +36,9 @@ It forces you to confront uncertainty instead of hand-waving it away.
 
 ## Points That Require Care or Are Context-Dependent
 
-• Normality requirements depend on sample size
-• Effect size thresholds vary by domain
-• One-sided tests require pre-registered logic
+- Normality requirements depend on sample size
+- Effect size thresholds vary by domain
+- One-sided tests require pre-registered logic
 
 These are methodological choices, not universal constants.
 
