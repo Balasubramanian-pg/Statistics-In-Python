@@ -7,8 +7,6 @@ Simple Linear Regression (SLR) is a statistical method used to model the linear 
 * **Output:** Provides a linear equation ($Y = \beta_0 + \beta_1X$) that describes the relationship's direction and strength.
 * **Use Case:** Predicting a student's final exam score based on their hours spent studying.
 
-***
-
 ## Multiple Linear Regression
 
 Multiple Linear Regression (MLR) extends SLR by incorporating two or more independent variables to predict a single continuous dependent variable.
