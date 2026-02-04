@@ -24,7 +24,6 @@ Statistics helps us model the past to predict the future. This is the basis for 
 **6. Fostering Critical Thinking**
 In an age of misinformation, statistical literacy is a vital skill. It equips you to critically evaluate claims made in the news, by politicians, or in advertisements. You can ask the right questions: What was the sample size? Is the correlation meaningful? Is this result statistically significant or just random chance?
 
----
 
 ### Applications of Statistics (The "Where")
 
