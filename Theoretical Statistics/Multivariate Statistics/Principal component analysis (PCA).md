@@ -13,7 +13,6 @@ Imagine you have a 3D model of a complex object, like an airplane. You want to t
 
 The goal is to **reduce the number of variables (dimensions)** while **losing the least amount of information**.
 
----
 
 ### How PCA Works: The Step-by-Step Intuition
 
@@ -40,7 +39,6 @@ You then decide how many components to keep. You might:
 **Step 5: Transform the Data**
 The final step is to project your original data onto the new axes (the principal components you decided to keep). This gives you a new, smaller dataset where the columns are no longer your original variables but are now PC1, PC2, etc.
 
----
 
 ### Key Terminology
 
@@ -49,7 +47,6 @@ The final step is to project your original data onto the new axes (the principal
 *   **Loading:** The correlation between an original variable and a principal component. It tells you how much that original variable contributes to creating the component.
 *   **Scree Plot:** A plot of the eigenvalues for each component, used to help decide how many components to keep.
 
----
 
 ### Real-World Applications
 
@@ -61,7 +58,6 @@ PCA is a workhorse algorithm used for:
 4.  **Finance:** Reducing a large number of economic indicators into a smaller set of indices that represent overall market health or risk factors.
 5.  **Biology:** Analyzing gene expression data, which can have thousands of genes (variables), to identify the key patterns of gene activity that differentiate cell types.
 
----
 
 ### PCA vs. Factor Analysis (A Crucial Distinction)
 
