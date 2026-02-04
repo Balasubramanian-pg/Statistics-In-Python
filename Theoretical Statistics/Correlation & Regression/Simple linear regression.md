@@ -10,7 +10,6 @@ At its heart, simple linear regression is a statistical method used to model the
 
 Simple linear regression finds the **single straight line** that best describes the data, allowing us to make these kinds of predictions.
 
----
 
 ### The Visual: The Line of Best Fit
 
@@ -24,7 +23,6 @@ The best way to understand regression is with a scatterplot.
 
 **What does "best fit" mean?** The line is chosen such that it minimizes the total distance from all the data points to the line itself. Specifically, it minimizes the sum of the *squared vertical distances* (these distances are called **residuals** or **errors**). This method is formally known as **Ordinary Least Squares (OLS)**.
 
----
 
 ### The Formula: The Equation of the Line
 
@@ -39,7 +37,6 @@ Let's break this down:
 *   **β₁ (Beta-one):** The **slope**. This is the most important part. It represents the estimated change in Y for a **one-unit increase** in X.
 *   **ε (Epsilon):** The **error term (or residual)**. This represents the part of Y that our model cannot explain with X. It's the vertical distance from a data point to the regression line.
 
----
 
 ### A Practical Example: Interpreting the Output
 
