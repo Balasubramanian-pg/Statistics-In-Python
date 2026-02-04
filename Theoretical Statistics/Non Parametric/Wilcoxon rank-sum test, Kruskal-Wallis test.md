@@ -2,7 +2,6 @@ Excellent. These two tests are workhorses in non-parametric statistics. They are
 
 The key to understanding both is to grasp one central idea: **they operate on the *ranks* of the data, not the actual data values.** This makes them robust to outliers and non-normal distributions.
 
----
 
 ### The Big Picture: Why We Need Them
 
@@ -16,7 +15,6 @@ What if your data looks like this?
 
 In these cases, a t-test or ANOVA can give you misleading results. The solution is to use a non-parametric test that doesn't rely on the assumption of normality.
 
----
 
 ### 1. Wilcoxon Rank-Sum Test (aka Mann-Whitney U Test)
 
@@ -57,7 +55,6 @@ A researcher wants to know if a new drug improves memory. They give 5 people the
 
 The ranks for the Drug group are clearly much higher. The Wilcoxon test would determine if this difference is statistically significant (i.e., give a low p-value).
 
----
 
 ### 2. Kruskal-Wallis Test
 
