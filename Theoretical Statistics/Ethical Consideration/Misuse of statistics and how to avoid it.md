@@ -2,7 +2,6 @@ Excellent question. Understanding how statistics can be misused is just as impor
 
 Here are some of the most common ways statistics are misused, often to support a biased argument, and how to spot and avoid them.
 
----
 
 ### 1. The Biased Sample (or "Cherry-Picking")
 
@@ -18,7 +17,6 @@ This is perhaps the most common and powerful form of statistical deception.
     *   **Look for the sample size (n).** A tiny sample is less reliable.
     *   Be skeptical of any survey where respondents are self-selected (online polls, call-in surveys).
 
----
 
 ### 2. The Misleading Graph (Chart Junk)
 
@@ -34,7 +32,6 @@ Visuals can be manipulated to create a false impression, even if the underlying 
     *   Be wary of fancy 3D charts and pictograms that can distort perception. A simple bar chart is often the most honest.
     *   Ask: What information is *not* being shown?
 
----
 
 ### 3. Correlation vs. Causation Fallacy
 
@@ -48,7 +45,6 @@ This is a classic. Two things are observed to be related (correlated), and the c
     *   **Ask: Was this an observational study or a randomized experiment?** Only a well-designed experiment can establish causation.
     *   Always consider potential **confounding variables** (the "warm weather" in the story).
 
----
 
 ### 4. The Misinterpreted "Average" (Mean vs. Median)
 
@@ -62,7 +58,6 @@ The word "average" is ambiguous. People often use the mean when the median would
     *   When you see the word "average," ask if it's the mean or the median.
     *   For things that are known to be skewed (like income, house prices), always look for the **median** as the more reliable measure.
 
----
 
 ### 5. The Deceptively Precise Number ("Spurious Accuracy")
 
@@ -74,7 +69,6 @@ Presenting a number with many decimal places can imply a level of accuracy that 
     *   Be wary of overly precise numbers, especially in social sciences or business forecasts.
     *   Look for the **margin of error** or **confidence interval**, which gives a much better sense of the true uncertainty.
 
----
 
 ### 6. The "Percentage of a Percentage" Confusion
 
