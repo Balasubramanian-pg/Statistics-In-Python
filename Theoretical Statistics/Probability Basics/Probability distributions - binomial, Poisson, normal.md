@@ -7,7 +7,6 @@ First, a crucial distinction:
 *   **Discrete Distributions:** Deal with countable outcomes (e.g., the number of heads in 3 coin flips can be 0, 1, 2, or 3, but not 2.5). **Binomial and Poisson are discrete.**
 *   **Continuous Distributions:** Deal with outcomes that can take any value within a range (e.g., a person's height can be 175cm, 175.1cm, 175.11cm, etc.). **Normal is continuous.**
 
----
 
 ### 1. The Binomial Distribution
 
@@ -30,7 +29,6 @@ First, a crucial distinction:
 *   The number of defective items in a batch of 100 from a production line.
 *   The number of people who click on a marketing email sent to 1,000 customers.
 
----
 
 ### 2. The Poisson Distribution
 
@@ -56,7 +54,6 @@ First, a crucial distinction:
 *   The number of customers entering a store per day.
 *   The number of radioactive decay events from a substance in one minute.
 
----
 
 ### 3. The Normal Distribution (The "Bell Curve")
 
