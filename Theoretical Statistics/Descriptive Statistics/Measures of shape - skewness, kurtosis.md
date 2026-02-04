@@ -2,7 +2,6 @@ Excellent. After understanding the center (mean, median, mode) and spread (varia
 
 Skewness and kurtosis are the two primary measures of shape. They describe the asymmetry and the "tail-heaviness" of your distribution, providing a more complete picture than the first two moments of data.
 
----
 
 ### Skewness: A Measure of Asymmetry
 
@@ -36,7 +35,6 @@ In a perfectly symmetrical distribution (like a bell curve), the mean, median, a
 *   It tells you which measure of central tendency is most appropriate. For highly skewed data, the **median** is a better representation of the "typical" value than the mean.
 *   Many statistical models assume normality (which implies zero skew), so checking skewness is an important diagnostic step.
 
----
 
 ### Kurtosis: A Measure of "Tail-Heaviness"
 
