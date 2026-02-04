@@ -2,7 +2,6 @@ Of course. Measures of central tendency are single values that attempt to descri
 
 Let's break down the three most common measures: mean, median, and mode.
 
----
 
 ### 1. Mean (The Average)
 
@@ -26,7 +25,6 @@ The mean is the most common measure of central tendency, often just called the "
     *   New Mean: `120 / 6 = 20`
     *   The mean jumped from 6 to 20 because of one extreme value. It no longer represents the "typical" value in the dataset (which is still somewhere around 4-7).
 
----
 
 ### 2. Median (The Middle Value)
 
@@ -56,7 +54,6 @@ The median is the value that splits the dataset exactly in half.
     *   **Outlier Example:** Let's use our outlier dataset again: `2, 3, **4, 7**, 7, 97`
     *   The median is still the average of 4 and 7, which is **5.5**. It was completely unaffected by the outlier of 97. This makes it a much better representation of the "typical" value in this case. This is why you always hear about "median household income" instead of "mean household income."
 
----
 
 ### 3. Mode (The Most Frequent Value)
 
