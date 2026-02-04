@@ -13,4 +13,3 @@ Confidence intervals are often more informative because they show:
 
 Think of hypothesis testing as a special case of estimation.
 
-
