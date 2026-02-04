@@ -2,7 +2,6 @@ Of course. The **Pearson Correlation Coefficient**, often denoted as **r**, is o
 
 Let's break it down completely.
 
----
 
 ### The Three Key Pieces of Information from `r`
 
@@ -27,7 +26,6 @@ This is determined by the sign of `r` (+ or -).
 **3. Linearity**
 This is an implicit but crucial piece of information. The Pearson correlation coefficient **only measures linear relationships**. It's looking for a straight-line pattern.
 
----
 
 ### Visualizing Correlation
 
@@ -42,7 +40,6 @@ A scatterplot is the best way to visualize what `r` is telling you.
 *   **r = -0.7:** A moderate negative relationship. Points are somewhat clustered around a downward-sloping line.
 *   **r = -1.0:** A perfect negative linear relationship. All points lie exactly on a downward-sloping line.
 
----
 
 ### The Massive, Critical Caveat: Correlation ≠ Causation
 
@@ -60,7 +57,6 @@ The relationship is caused by a **third, confounding variable** (also called a l
 
 The correlation is real, but the causal interpretation is spurious. **Pearson's `r` only describes the mathematical association; it says nothing about the underlying cause.**
 
----
 
 ### Key Properties and Limitations
 
