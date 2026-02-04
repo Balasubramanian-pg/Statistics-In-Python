@@ -7,7 +7,6 @@ Think of it this way:
 
 Let's break them down.
 
----
 
 ### 1. Descriptive Statistics
 
@@ -51,7 +50,6 @@ You survey the test scores of **one specific class of 30 students**.
 
 All of these are **descriptive statistics**. You are only describing the 30 students in that specific class.
 
----
 
 ### 2. Inferential Statistics
 
