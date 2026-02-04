@@ -1,6 +1,5 @@
 Longitudinal data analysis involves studying the same subjects or entities repeatedly over a period of time. Unlike cross-sectional data, which captures a single snapshot, longitudinal data allows researchers to observe changes, trends, and patterns within individuals or units, providing insights into development, growth, and causality.
 
----
 
 ## Key Characteristics of Longitudinal Data
 
@@ -13,7 +12,6 @@ Longitudinal data analysis involves studying the same subjects or entities repea
 - **Unbalanced Data:** It's common to have an unequal number of observations for each individual due to missed appointments, dropouts (attrition), or varying study designs.
     
 
----
 
 ## Why is Longitudinal Data Analysis Important?
 
@@ -28,7 +26,6 @@ Longitudinal data analysis offers several advantages over cross-sectional studie
 - **Controlling for Individual Heterogeneity:** It can account for unobserved stable characteristics of individuals that might confound relationships in cross-sectional data.
     
 
----
 
 ## Common Methods for Longitudinal Data Analysis
 
@@ -87,7 +84,6 @@ These are generally more flexible and powerful for longitudinal data.
 - **Dynamic Panel Models:** Often used in econometrics for panel data with a large number of units and a relatively small number of time points, explicitly modeling lagged dependent variables.
     
 
----
 
 ## Challenges in Longitudinal Data Analysis
 
@@ -106,7 +102,6 @@ Analyzing longitudinal data comes with unique challenges:
 - **Interpretation of Effects:** Differentiating between within-individual change and between-individual differences can be tricky.
     
 
----
 
 ## Software for Longitudinal Data Analysis
 
@@ -153,12 +148,10 @@ Many statistical software packages offer robust capabilities for longitudinal da
 
 Longitudinal data analysis is a powerful tool for understanding change and dynamic relationships over time, essential in fields like medicine, public health, psychology, education, and economics.
 
----
 Longitudinal data analysis in Python is primarily done using libraries like **`statsmodels`** for a wide range of GLMs, GEEs, and mixed linear models, and **`lme4py`** (a Python port of R's `lme4`) or **`PyMC`** for more complex Bayesian mixed models. The choice depends on the specific type of longitudinal analysis you want to perform (e.g., linear vs. generalized, marginal vs. subject-specific effects).
 
 Here's a breakdown of how to approach different longitudinal analysis methods in Python:
 
----
 
 ## 1. Linear Mixed Models (LMMs)
 
@@ -223,7 +216,6 @@ print(results.summary())
 # plt.show()
 ```
 
----
 
 ## 2. Generalized Linear Mixed Models (GLMMs)
 
@@ -285,7 +277,6 @@ Python
 #     # print(pm.summary(trace))
 ```
 
----
 
 ## 3. Generalized Estimating Equations (GEEs)
 
@@ -345,7 +336,6 @@ print(results_gee.summary())
 # print(results_gee_poisson.summary())
 ```
 
----
 
 ## 4. Latent Growth Curve Modeling (LGCM)
 
@@ -406,7 +396,6 @@ Python
 # # plot_sem(model_lgcm, 'lgcm_plot.png') # Requires graphviz
 ```
 
----
 
 ## Key Considerations for Python Implementation
 
