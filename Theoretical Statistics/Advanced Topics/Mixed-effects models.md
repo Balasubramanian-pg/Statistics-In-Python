@@ -1,6 +1,5 @@
 Mixed-effects models, also known as mixed models or mixed error-component models, are a powerful class of statistical models that contain both **fixed effects** and **random effects**.1 They are particularly useful for analyzing data where observations are not independent, such as in longitudinal studies (repeated measurements on the same individuals) or hierarchical/clustered data (e.g., students within schools, patients within hospitals).2
 
----
 
 ## What are Fixed and Random Effects?
 
@@ -29,7 +28,6 @@ The distinction between fixed and random effects is fundamental to understanding
     - Random effects help in **pooling information** across groups, especially when some groups have limited data, leading to more robust estimates.7 They account for the correlation induced by the grouping structure.
         
 
----
 
 ## Why Use Mixed-Effects Models?
 
@@ -44,7 +42,6 @@ Mixed-effects models are preferred over traditional regression or ANOVA models i
 - **Generalizability**: Random effects allow for generalization of results beyond the specific groups observed in the study to the larger population from which they were sampled.
     
 
----
 
 ## Types of Mixed-Effects Models
 
@@ -79,7 +76,6 @@ Mixed-effects models come in various forms, depending on the nature of the respo
     - More complex to specify and estimate.
         
 
----
 
 ## Key Components and Concepts
 
@@ -102,7 +98,6 @@ Mixed-effects models come in various forms, depending on the nature of the respo
     - For instance, in a student-school example, the variance component for "school" indicates how much variability in test scores is due to differences between schools.
         
 
----
 
 ## Estimation and Interpretation
 
@@ -115,7 +110,6 @@ Interpreting results involves:
 - **Random Effects**: Focus on the estimated variance components. A significant variance component suggests that the grouping factor accounts for a meaningful amount of variability in the outcome. Random intercepts indicate variation in group means, while random slopes indicate variation in the relationships between predictors and the outcome across groups.31
     
 
----
 
 ## Advantages and Disadvantages
 
@@ -143,7 +137,6 @@ Interpreting results involves:
 - **Assumptions**: Still rely on assumptions (e.g., normality of random effects, conditional independence), which need to be checked through diagnostics.36
     
 
----
 
 ## Applications
 
@@ -164,7 +157,6 @@ Mixed-effects models are widely used across various disciplines:
 - **Sports Analytics**: Analyzing athlete performance across teams or seasons.
     
 
----
 
 ## Software Implementation
 
@@ -183,7 +175,6 @@ Mixed-effects models are implemented in most major statistical software packages
 
 Understanding mixed-effects models is crucial for researchers dealing with structured or correlated data, as they provide a robust and flexible framework for drawing accurate and generalizable conclusions.
 
----
 
 ## Assumptions of Mixed-Effects Models
 
@@ -202,7 +193,6 @@ Like all statistical models, mixed-effects models rely on certain assumptions fo
 - **Independence of Observations (Conditional on Random Effects):** Once the random effects are accounted for, the remaining residuals are assumed to be independent. This means the model adequately captures the correlation structure due to clustering or repeated measures.
     
 
----
 
 ## Model Building and Selection Strategies
 
@@ -235,7 +225,6 @@ Building an effective mixed-effects model often involves a thoughtful strategy f
     - **Convergence Issues:** Complex random effects structures can lead to convergence problems. If a model doesn't converge, try simplifying the random effects.
         
 
----
 
 ## Common Challenges and Solutions
 
@@ -290,7 +279,6 @@ Working with mixed-effects models can present several hurdles.
     - **Solution:** Base your choice primarily on the **nature of your response variable** (e.g., binary for logistic, counts for Poisson) and theoretical considerations. Diagnostics (e.g., residual plots, checking for overdispersion) can help validate your choice.
         
 
----
 
 ## Advanced Diagnostic Techniques
 
