@@ -2,14 +2,12 @@
 
 **Simple Linear Regression** is a statistical method used to model the relationship between a **single independent variable (X)** and a **dependent variable (Y)**. It helps you understand how changes in \( X \) are associated with changes in \( Y \), and it allows you to predict \( Y \) for new values of \( X \).
 
----
 
 ### **When to Use Simple Linear Regression**
 - You want to **explore the relationship** between two continuous variables.
 - You want to **predict** the value of \( Y \) based on \( X \).
 - You suspect a **linear relationship** between \( X \) and \( Y \).
 
----
 
 ### **Key Concepts**
 #### **Regression Equation**
@@ -22,7 +20,6 @@ Y = \beta_0 + \beta_1 X + \epsilon
 - \( \beta_1 \): Slope (change in \( Y \) for a one-unit change in \( X \)).
 - \( \epsilon \): Error term (residuals, representing unexplained variation).
 
----
 
 ### **Assumptions**
 1. **Linearity**: The relationship between \( X \) and \( Y \) is linear.
@@ -31,7 +28,6 @@ Y = \beta_0 + \beta_1 X + \epsilon
 4. **Normality**: Residuals are normally distributed.
 5. **No Outliers**: Outliers can disproportionately influence the regression line.
 
----
 
 ### **Steps to Perform Simple Linear Regression**
 1. **Define the Model**: Specify \( Y \) (dependent variable) and \( X \) (independent variable).
@@ -51,7 +47,6 @@ Y = \beta_0 + \beta_1 X + \epsilon
    - \( \beta_1 \): A one-unit increase in \( X \) is associated with a \( \beta_1 \)-unit change in \( Y \).
    - \( \beta_0 \): The expected value of \( Y \) when \( X = 0 \).
 
----
 
 ### **Example**
 Suppose you want to predict **house prices (Y)** based on **house size (X)**. You collect the following data:
@@ -74,7 +69,6 @@ Suppose you want to predict **house prices (Y)** based on **house size (X)**. Yo
   - **Interpretation**: For every additional square foot, the price increases by **$100** (holding other factors constant).
   - **Intercept**: A house with 0 sq. ft would cost **$50,000** (often not meaningful in practice).
 
----
 
 ### **Model Evaluation Metrics**
 1. **\( R^2 \)**: Explains the proportion of variance in \( Y \) accounted for by \( X \).
@@ -82,14 +76,12 @@ Suppose you want to predict **house prices (Y)** based on **house size (X)**. Yo
 2. **Standard Error of the Estimate (SEE)**: Measures the accuracy of predictions.
 3. **p-value for Slope**: If \( p < 0.05 \), the slope is statistically significant.
 
----
 
 ### **Limitations**
 - **Assumes Linearity**: If the relationship is non-linear, the model may not fit well.
 - **Sensitive to Outliers**: Outliers can distort the regression line.
 - **Only One Predictor**: Cannot account for the influence of other variables (use **multiple regression** for multiple predictors).
 
----
 
 ### **Extensions**
 - **Polynomial Regression**: For non-linear relationships.
