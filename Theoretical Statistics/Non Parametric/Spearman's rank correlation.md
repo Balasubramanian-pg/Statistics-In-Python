@@ -26,7 +26,6 @@ In essence, Spearman's correlation measures the **strength and direction of a mo
 
 This curve is monotonic (always increasing), but not linear. Spearman's would be high, Pearson's would be lower.
 
----
 
 ### When to Use Spearman's Correlation
 
@@ -36,7 +35,6 @@ You should use Spearman's instead of Pearson's in two main situations:
 2.  **When you have ordinal data:** If your data is already in ranks (e.g., 1st, 2nd, 3rd place in a race) or is based on a scale (e.g., "strongly disagree," "neutral," "strongly agree"), you cannot use Pearson's. Spearman's is designed specifically for this kind of data.
 3.  **When your data has significant outliers:** Spearman's is much less sensitive to outliers than Pearson's. Because it uses ranks, an extreme value just becomes "1st place" and doesn't pull the entire correlation coefficient off-kilter.
 
----
 
 ### How it Works: The Calculation
 
@@ -92,7 +90,6 @@ Where:
 ρ = 1 - 0.025
 **ρ = 0.975**
 
----
 
 ### How to Interpret the Result (The Coefficient 'ρ' or 'rₛ')
 
@@ -103,7 +100,6 @@ The coefficient, like Pearson's, ranges from **-1 to +1**.
 *   **0:** No monotonic relationship between the ranks.
 *   **Our result of 0.975** indicates a very strong positive monotonic relationship. As study hours increase, test scores consistently increase.
 
----
 
 ### Spearman vs. Pearson: Key Differences
 
