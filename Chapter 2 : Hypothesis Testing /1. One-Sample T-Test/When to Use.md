@@ -16,4 +16,3 @@ The test answers a narrow but powerful question:
 
 Not “are they equal,” but “is the observed difference too large to be explained by chance?”
 
-
