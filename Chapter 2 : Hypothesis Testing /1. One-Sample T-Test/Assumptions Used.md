@@ -26,4 +26,3 @@ Outliers disproportionately affect the mean and standard deviation.
 If violated:
 • Consider trimming
 • Or use a non-parametric alternative (e.g., Wilcoxon signed-rank test)
-
