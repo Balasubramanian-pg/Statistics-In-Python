@@ -2,7 +2,6 @@ Excellent. Understanding the difference between these three research designs is 
 
 Let's break down each one.
 
----
 
 ### 1. Observational Studies
 
@@ -31,7 +30,6 @@ A researcher wants to know if there's a relationship between regular exercise an
 
 **Surveys** are a common *tool* used within observational studies to collect data.
 
----
 
 ### 2. Experiments (Specifically, Randomized Controlled Trials)
 
@@ -56,7 +54,6 @@ A researcher wants to know if a new medication *causes* a reduction in blood pre
 *   **Randomization:** Using a random process (like a coin flip) to assign subjects to groups is the magic ingredient. It ensures that, on average, the two groups are identical in every way (age, genetics, lifestyle, etc.) *except* for the one thing the researcher is manipulating. This washes out the effect of all potential confounding variables.
 *   **Control Group:** A baseline group that does not receive the treatment, used for comparison.
 
----
 
 ### 3. Surveys
 
@@ -67,7 +64,6 @@ It's important to clarify that a survey is a **data collection tool**, not a res
 *   **Use in an Observational Study (most common):** The exercise and stress study is a perfect example. The survey was the tool used to measure the naturally occurring levels of exercise and stress.
 *   **Use in an Experiment:** In our medication experiment, a survey could be used as the measurement tool. For example, if the medication was for anxiety, the outcome might be measured by having subjects fill out a standardized anxiety survey before and after the treatment period.
 
----
 
 ### Summary Table: The Key Distinctions
 
