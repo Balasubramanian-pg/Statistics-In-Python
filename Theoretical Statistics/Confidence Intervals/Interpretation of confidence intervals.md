@@ -2,7 +2,6 @@ Let's use our last example: A 95% confidence interval for a website's click-thro
 
 What does this *really* mean?
 
----
 
 ### The Correct (but Confusing) Frequentist Interpretation
 
@@ -26,7 +25,6 @@ Imagine the true CTR is 12% (represented by the vertical line). Each horizontal 
 
 As you can see, most intervals (in the long run, 95% of them) cross the true value. But some, purely by random chance, will not. You only have one of these lines, and your confidence is that you likely got one of the ones that crossed the true value.
 
----
 
 ### The Incorrect (but Tempting) Interpretation
 
@@ -43,7 +41,6 @@ The 95% probability was associated with the *procedure* of sampling and calculat
 
 *(Side note: The statement "There is a 95% probability..." is actually a Bayesian statement about a credible interval. The numbers might be similar, but the philosophical foundation is completely different.)*
 
----
 
 ### The Practical, Intuitive Interpretation (The Right Way to Think)
 
