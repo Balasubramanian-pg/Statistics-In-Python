@@ -27,7 +27,6 @@ Since both right-hand sides equal the same thing, they must equal each other:
 
 Now, with one simple division, we arrive at Bayes' Theorem.
 
----
 
 ### Part 2: Bayes' Theorem
 
@@ -58,7 +57,6 @@ Let's rename the terms to make their roles clearer. Let `H` be a Hypothesis and 
 To calculate `P(E)`, we use the Law of Total Probability: The evidence `E` can happen in two ways—either the hypothesis `H` is true, or it's not (`not H`).
 `P(E) = P(E | H) * P(H) + P(E | not H) * P(not H)`
 
----
 
 ### Part 3: The Classic Example (Medical Diagnosis)
 
