@@ -1,7 +1,5 @@
----
 Due Date: 2025-07-03
 Urgency: Good To Have
----
 ARIMA stands for **AutoRegressive Integrated Moving Average**. It's a time series forecasting model used when your data shows trends over time.
 
 Here's the breakdown:
@@ -21,7 +19,6 @@ It's good for non-stationary data with trends but not seasonality (that’s wher
 
 Cool, let’s build a basic ARIMA model step by step. I’ll assume you're using Python with `pandas` and `statsmodels`. You can replace the dataset with yours.
 
----
 
 ### **Step 0: Install dependencies (if not done)**
 
@@ -29,7 +26,6 @@ Cool, let’s build a basic ARIMA model step by step. I’ll assume you're using
 pip install pandas matplotlib statsmodels
 ```
 
----
 
 ### **Step 1: Import and visualize the data**
 
@@ -43,7 +39,6 @@ df.plot(title='Original Data')
 plt.show()
 ```
 
----
 
 ### **Step 2: Make the data stationary**
 
@@ -54,7 +49,6 @@ df_diff.plot(title='After Differencing')
 plt.show()
 ```
 
----
 
 ### **Step 3: Use ACF and PACF to find p and q**
 
@@ -68,7 +62,6 @@ plt.show()
 
 Look at how long the bars stay above the threshold — that gives you `q` (from ACF) and `p` (from PACF).
 
----
 
 ### **Step 4: Fit the ARIMA model**
 
@@ -80,7 +73,6 @@ model_fit = model.fit()
 print(model_fit.summary())
 ```
 
----
 
 ### **Step 5: Forecast**
 
@@ -91,7 +83,6 @@ forecast.plot(title='Forecast')
 plt.show()
 ```
 
----
 
 ### TL;DR
 
@@ -104,7 +95,6 @@ plt.show()
 
 Yep. Let's walk through a **real ARIMA example** using the classic **AirPassengers** dataset (monthly airline passengers from 1949 to 1960). This is time series gold for demos.
 
----
 
 ### **Step 1: Load and plot data**
 
@@ -123,7 +113,6 @@ plt.show()
 
 You’ll see a clear upward **trend** and possible **seasonality**.
 
----
 
 ### **Step 2: Check stationarity**
 
@@ -136,7 +125,6 @@ print(f'p-value: {result[1]}')
 
 If `p-value > 0.05`, the data is **non-stationary** — we need to difference it.
 
----
 
 ### **Step 3: Make it stationary**
 
@@ -152,7 +140,6 @@ print(f'New p-value: {result[1]}')
 
 Now, `d = 1`.
 
----
 
 ### **Step 4: Determine p and q with ACF/PACF**
 
@@ -171,7 +158,6 @@ Let’s say:
 - ACF cuts off at lag 2 ⇒ `q = 2`
     
 
----
 
 ### **Step 5: Fit ARIMA**
 
@@ -185,7 +171,6 @@ print(model_fit.summary())
 
 You’ll get coefficients, AIC/BIC, and p-values. Watch for low p-values (<0.05) — they’re significant.
 
----
 
 ### **Step 6: Forecast**
 
@@ -196,7 +181,6 @@ forecast.plot(label='Forecast', legend=True, title='Forecast for next 12 months'
 plt.show()
 ```
 
----
 
 That’s ARIMA in action. Want me to explain what AIC/BIC means or how to automate this with `pmdarima`?
 
@@ -232,4 +216,3 @@ Here’s a no-BS cheat sheet for when to use which time series model:
 - Use **ARIMA** when you have clean, trending data.
 - Switch to **SARIMA** or **Prophet** if seasonality is real.
 - Use **ML/DL** if you want power, don’t care about explainability, or have rich features.
-
