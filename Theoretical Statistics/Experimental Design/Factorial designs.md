@@ -44,7 +44,6 @@ The 2x2 design creates 4 experimental groups:
 
 This can be extended. A **2x3 factorial design** would have two factors, one with 2 levels and one with 3 levels, for a total of 2 x 3 = 6 conditions. A **2x2x3 design** would have three factors, for a total of 2 x 2 x 3 = 12 conditions.
 
----
 
 ### The Power of Factorial Designs: Main Effects and Interactions
 
@@ -86,7 +85,6 @@ The best way to see and understand an interaction is to graph it.
 
 
 
----
 
 ### Advantages and Disadvantages of Factorial Designs
 
