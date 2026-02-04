@@ -11,7 +11,6 @@ Every sampling technique falls into one of two major categories.
 1.  **Probability Sampling:** Every member of the population has a known, non-zero chance of being selected. This is the "gold standard" because it allows for statistical inference and reduces the risk of selection bias. The results are considered generalizable to the population.
 2.  **Non-Probability Sampling:** The chance of any given member being selected is unknown. Selection is based on convenience, judgment, or other non-random criteria. This is often easier and cheaper but comes with a high risk of bias, meaning the sample may not be representative of the population.
 
----
 
 ### Part 1: Probability Sampling Techniques (The Gold Standard)
 
@@ -75,7 +74,6 @@ This is a simpler, more convenient approximation of simple random sampling.
 *   **Cons:**
     *   Can be biased if there is an underlying periodic pattern in the list (e.g., if every 10th person on an employee list is a manager, you might get a sample of all managers or no managers).
 
----
 
 ### Part 2: Non-Probability Sampling Techniques (Use with Caution)
 
