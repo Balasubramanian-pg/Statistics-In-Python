@@ -2,7 +2,6 @@ Of course. Data visualization is the art and science of translating data into a 
 
 Let's explore three of the most fundamental and powerful visualization types: histograms, box plots, and scatter plots.
 
----
 
 ### 1. Histograms
 
@@ -29,7 +28,6 @@ Imagine you measured the height of 100 people. You could create bins of 5cm each
 
 **When to use it:** When you have **one continuous variable** and you want to see how its values are distributed.
 
----
 
 ### 2. Box Plots (or Box-and-Whisker Plots)
 
@@ -54,7 +52,6 @@ Imagine you measured the height of 100 people. You could create bins of 5cm each
 
 **When to use it:** When you have **one continuous variable** and want to summarize its distribution, or (more powerfully) when you want to compare the distribution of **one continuous variable across different levels of a categorical variable.**
 
----
 
 ### 3. Scatter Plots
 
