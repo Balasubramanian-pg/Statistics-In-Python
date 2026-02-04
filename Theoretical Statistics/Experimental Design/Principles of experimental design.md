@@ -4,7 +4,6 @@ A poorly designed experiment is worse than no experiment at all, because it can 
 
 There are four fundamental principles that underpin all good experimental design: **Control, Randomization, Replication, and Blocking.**
 
----
 
 ### 1. Control
 
@@ -19,7 +18,6 @@ There are four fundamental principles that underpin all good experimental design
     *   **Single-Blind:** The subjects don't know whether they are in the treatment or control group.
     *   **Double-Blind:** Neither the subjects nor the researchers interacting with them know who is in which group. This is the gold standard, as it prevents researchers from (even unconsciously) treating the groups differently.
 
----
 
 ### 2. Randomization
 
@@ -34,7 +32,6 @@ There are four fundamental principles that underpin all good experimental design
 *   Never use personal judgment or convenience.
 *   Always use a verifiable random process like a computer's random number generator.
 
----
 
 ### 3. Replication
 
@@ -51,7 +48,6 @@ There are four fundamental principles that underpin all good experimental design
 *   **Replication:** Having 10 people in the treatment group and 10 in the control group.
 *   **Repetition:** Measuring the same *one* person in the treatment group 10 times. This only tells you about that one person and doesn't account for variation between people.
 
----
 
 ### 4. Blocking
 
