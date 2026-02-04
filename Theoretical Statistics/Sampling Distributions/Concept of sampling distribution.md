@@ -2,7 +2,6 @@
 
 The **sampling distribution** is a fundamental concept in inferential statistics that describes the distribution of a statistic (e.g., mean, proportion, variance) computed from multiple random samples drawn from a population. It serves as the theoretical foundation for estimating population parameters and conducting hypothesis tests.
 
----
 
 #### 2. Key Components of a Sampling Distribution
 
@@ -11,7 +10,6 @@ The **sampling distribution** is a fundamental concept in inferential statistics
 - **Sample Distribution**: The distribution of observed values in a single sample.
 - **Sampling Distribution**: The probability distribution of a statistic over many samples.
 
----
 
 #### 3. Formation of a Sampling Distribution
 
@@ -19,7 +17,6 @@ The **sampling distribution** is a fundamental concept in inferential statistics
 2. **Compute the Statistic**: Calculate the desired statistic (e.g., $\bar{X}$) for each sample.  
 3. **Construct the Distribution**: Plot the distribution of these statistics across all samples.
 
----
 
 #### 4. Properties of Sampling Distributions
 
@@ -42,7 +39,6 @@ The **sampling distribution** is a fundamental concept in inferential statistics
   - For small samples from a normal population, the sampling distribution is exactly normal.
   - For proportions, the distribution is normal if $np \ge 10$ and $n(1 - p) \ge 10$.
 
----
 
 #### 5. Types of Sampling Distributions
 
@@ -51,7 +47,6 @@ The **sampling distribution** is a fundamental concept in inferential statistics
 - **Sampling Distribution of the Variance**: Distribution of sample variances (follows $\chi^2$ for normal populations).  
 - **Sampling Distribution of Differences**: E.g., $\bar{X}_1 - \bar{X}_2$ for comparing two groups.
 
----
 
 #### 6. Importance of Sampling Distributions
 
@@ -59,7 +54,6 @@ The **sampling distribution** is a fundamental concept in inferential statistics
 - **Hypothesis Testing**: Provides the theoretical basis for p-values and significance tests.  
 - **Error Quantification**: Helps measure sampling variability (via standard error).
 
----
 
 #### 7. Practical Example
 
@@ -72,7 +66,6 @@ The **sampling distribution** is a fundamental concept in inferential statistics
   - Standard error = $\frac{10}{\sqrt{50}} \approx 1.41$ cm  
   - Normal shape (by CLT)
 
----
 
 #### 8. Common Misconceptions
 
@@ -87,7 +80,6 @@ The **sampling distribution** is a fundamental concept in inferential statistics
 - **Dependence on Sample Size**:  
   - Larger *n* reduces standard error (narrower distribution).
 
----
 
 #### 9. Advanced Considerations
 
@@ -95,13 +87,11 @@ The **sampling distribution** is a fundamental concept in inferential statistics
 - **t-Distribution**: Used for small samples when $\sigma$ is unknown.  
 - **Asymptotic Theory**: Behavior of sampling distributions as *n → ∞*.
 
----
 
 #### 10. Summary
 
 The sampling distribution is the **bridge between sample statistics and population parameters**, enabling probabilistic inference. Its properties (mean, standard error, shape) are derived from statistical theory (e.g., CLT) and are critical for constructing confidence intervals, conducting hypothesis tests, and understanding the reliability of estimates.
 
----
 
 ### Final Thought
 
