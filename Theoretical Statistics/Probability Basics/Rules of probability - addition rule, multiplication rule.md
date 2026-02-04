@@ -6,7 +6,6 @@ The easiest way to remember which rule to use is by associating them with keywor
 
 Let's break them down.
 
----
 
 ### 1. The Addition Rule (For "OR" Events)
 
@@ -45,7 +44,6 @@ The Addition Rule helps us find the probability that *at least one* of two event
     = 4/52 + 13/52 - 1/52
     = 16/52 = 4/13
 
----
 
 ### 2. The Multiplication Rule (For "AND" Events)
 
