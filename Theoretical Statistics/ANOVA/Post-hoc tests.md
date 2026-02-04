@@ -2,7 +2,6 @@
 
 Post-hoc tests (**"after-the-fact" tests**) are follow-up analyses conducted **after a significant ANOVA result** to determine **exactly which group means differ** from each other. They control for **Type I error inflation** that occurs when making multiple comparisons.  
 
----
 
 ## **1. When Are Post-Hoc Tests Needed?**  
 ✅ **One-Way ANOVA:**  
@@ -14,7 +13,6 @@ Post-hoc tests (**"after-the-fact" tests**) are follow-up analyses conducted **a
    - Example: If "Diet" (Keto, Vegan, Paleo) has a main effect, compare all diet pairs.  
    - If an **interaction effect** is significant, perform **simple effects analysis** (comparing groups at each level).  
 
----
 
 ## **2. Types of Post-Hoc Tests**  
 
@@ -36,7 +34,6 @@ These tests compare **every possible pair** of groups while controlling for **fa
   - Fertilizer A vs. C: p = 0.45 (not significant)  
   - Fertilizer B vs. C: p = 0.01 (significant)  
 
----
 
 ### **B. For Interaction Effects (Two-Way ANOVA)**  
 If a **significant interaction** exists, you must perform **simple effects analysis** (not standard post-hoc tests).  
@@ -52,7 +49,6 @@ If a **significant interaction** exists, you must perform **simple effects analy
   - For **Males:** High vs. Low exercise → No difference (p = 0.15).  
   - For **Females:** High exercise reduces stress (p = 0.003).  
 
----
 
 ## **3. How to Choose a Post-Hoc Test?**  
 
@@ -64,7 +60,6 @@ If a **significant interaction** exists, you must perform **simple effects analy
 | **Many comparisons (strict control needed)** | Bonferroni |
 | **Many comparisons (more power needed)** | Holm-Bonferroni |
 
----
 
 ## **4. Reporting Post-Hoc Results (APA Style)**  
 
@@ -74,7 +69,6 @@ If a **significant interaction** exists, you must perform **simple effects analy
 **Example (Simple Effects):**  
 > *Simple effects analysis revealed that for females, high exercise significantly reduced stress compared to low exercise (p < 0.01), whereas for males, there was no significant difference (p = 0.15).*  
 
----
 
 ## **5. Key Takeaways**  
 ✔ **Use post-hoc tests after a significant ANOVA** to identify specific differences.  
