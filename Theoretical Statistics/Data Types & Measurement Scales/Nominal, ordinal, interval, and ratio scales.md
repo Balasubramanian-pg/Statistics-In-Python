@@ -2,7 +2,6 @@ Of course. Understanding these four levels of measurement is crucial because the
 
 This hierarchy was developed by psychologist Stanley Smith Stevens, and it moves from the least informative to the most informative.
 
----
 
 ### 1. Nominal Scale
 
@@ -18,7 +17,6 @@ This is the most basic level of measurement.
 *   **Jersey Numbers on a Sports Team:** Player #10 is not necessarily better than player #5. The number is just an identifier.
 *   **Yes/No Questions:** Answers to "Do you own a car?"
 
----
 
 ### 2. Ordinal Scale
 
@@ -34,7 +32,6 @@ This level adds the concept of order.
 *   **Race Results:** 1st Place, 2nd Place, 3rd Place. (You know the 1st place finisher was faster than the 2nd, but you don't know if they won by 0.1 seconds or 10 seconds).
 *   **Military Ranks:** Private, Corporal, Sergeant, Lieutenant.
 
----
 
 ### 3. Interval Scale
 
@@ -49,7 +46,6 @@ This level adds the concept of equal intervals.
 *   **Standardized Test Scores (IQ, SAT):** The difference between a score of 100 and 110 is interpreted as the same as the difference between 110 and 120. But a score of 0 does not mean zero intelligence.
 *   **Calendar Years:** The interval between 1980 and 1990 is the same as the interval between 2010 and 2020. There is no "year zero" that represents the beginning of all time.
 
----
 
 ### 4. Ratio Scale
 
