@@ -1,6 +1,5 @@
 ### **Standard Error and Confidence Intervals: A Detailed Explanation**
 
----
 
 #### **1. Standard Error (SE)**  
 The **standard error** quantifies the variability of a sample statistic (e.g., mean, proportion) across multiple samples from the same population. It measures how far the sample statistic is likely to be from the true population parameter.
@@ -28,7 +27,6 @@ The **standard error** quantifies the variability of a sample statistic (e.g., m
   - A smaller SE indicates greater precision in estimating the population parameter  
   - SE decreases as sample size \( n \) increases (law of large numbers)
 
----
 
 #### **2. Confidence Intervals (CIs)**  
 A **confidence interval** provides a range of plausible values for a population parameter, constructed around a sample statistic. It reflects the uncertainty associated with sampling variability.
@@ -67,7 +65,6 @@ A **confidence interval** provides a range of plausible values for a population 
   ❌ "There’s a 95% chance the true mean is in [a, b]"  
   ✅ "We are 95% confident the interval [a, b] captures the true mean"
 
----
 
 #### **3. Relationship Between SE and CI**  
 - **SE** is the building block for **CI**:  
@@ -80,7 +77,6 @@ A **confidence interval** provides a range of plausible values for a population 
   - **Variability (\( \sigma \) or \( s \))**: Higher variability → Wider CI  
   - **Confidence level**: Higher confidence (e.g., 99% vs. 95%) → Wider CI
 
----
 
 #### **4. Practical Example**  
 **Scenario**: Estimate the average height of students (\( n = 100 \), \( \bar{X} = 170 \) cm, \( s = 10 \) cm)
@@ -98,7 +94,6 @@ A **confidence interval** provides a range of plausible values for a population 
 
 *Interpretation*: We are 95% confident the true mean height lies between 168.02 cm and 171.98 cm.
 
----
 
 #### **5. Common Misconceptions**  
 1. **SE vs. Standard Deviation**  
@@ -112,7 +107,6 @@ A **confidence interval** provides a range of plausible values for a population 
 3. **Fixed vs. Random Intervals**  
    - The *process* of constructing CIs has a 95% success rate—not any single interval
 
----
 
 #### **6. Advanced Notes**  
 - **Bootstrapped CIs**: Use resampling to estimate SE and CIs without normality assumptions  
@@ -121,7 +115,6 @@ A **confidence interval** provides a range of plausible values for a population 
   MoE = z_{\alpha/2} \times SE
   $$
 
----
 
 ### **Summary**  
 - **Standard Error**: Measures precision of a sample statistic  
