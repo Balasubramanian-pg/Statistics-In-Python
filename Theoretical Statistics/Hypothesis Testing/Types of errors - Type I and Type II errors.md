@@ -13,7 +13,6 @@ Imagine the true state of the world (which we can never know for sure) versus th
 
 Now let's break down each error.
 
----
 
 ### Type I Error (The False Positive)
 
@@ -26,7 +25,6 @@ A Type I error is when you **reject a null hypothesis that is actually true**.
 
 **Consequences:** A company might waste millions of dollars developing a drug that doesn't work, or a new educational policy is rolled out that has no actual benefit. You're chasing a ghost.
 
----
 
 ### Type II Error (The False Negative)
 
@@ -39,7 +37,6 @@ A Type II error is when you **fail to reject a null hypothesis that is actually 
 
 **Consequences:** A potentially life-saving drug could be abandoned because the initial study wasn't powerful enough to detect its effect. A company might fail to notice a critical flaw in their product. You're missing a real opportunity or a real danger.
 
----
 
 ### The Inevitable Trade-Off
 
