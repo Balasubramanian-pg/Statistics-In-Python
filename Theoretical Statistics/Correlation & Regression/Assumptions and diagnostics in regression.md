@@ -16,7 +16,6 @@ The most common set of assumptions for a standard linear regression (OLS) can be
 
 We'll add a fifth crucial one: No severe multicollinearity.
 
----
 
 ### 1. Linearity
 
@@ -31,7 +30,6 @@ We'll add a fifth crucial one: No severe multicollinearity.
 
 
 
----
 
 ### 2. Independence of Residuals
 
@@ -43,7 +41,6 @@ We'll add a fifth crucial one: No severe multicollinearity.
     *   **Plot of Residuals vs. Order of Data Collection (or Time):** If the data has a natural sequence, plot the residuals in that order. Look for "waves," "zig-zags," or any non-random pattern.
     *   **Durbin-Watson Test:** A formal statistical test for autocorrelation. Values are between 0 and 4. A value near 2 is good (no autocorrelation). Values close to 0 or 4 suggest a problem.
 
----
 
 ### 3. Normality of Residuals
 
@@ -59,7 +56,6 @@ We'll add a fifth crucial one: No severe multicollinearity.
 
 
 
----
 
 ### 4. Equal Variance (Homoscedasticity)
 
@@ -72,7 +68,6 @@ We'll add a fifth crucial one: No severe multicollinearity.
         *   **Good:** The vertical spread of the points is roughly the same across the entire plot (the "random cloud").
         *   **Bad:** A clear **funnel or megaphone shape**. The spread of the residuals either increases or decreases as the fitted values change.
 
----
 
 ### 5. No Severe Multicollinearity
 
