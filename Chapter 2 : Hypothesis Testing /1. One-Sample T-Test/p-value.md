@@ -15,4 +15,3 @@ A small p-value means:
 • The null hypothesis becomes implausible
 
 Statistics does not prove truth. It eliminates bad explanations.
-
