@@ -1,11 +1,9 @@
 
----
 
 ## Probability Mass Functions (PMF) and Probability Density Functions (PDF)
 
 **Probability mass functions (PMF)** and **probability density functions (PDF)** are fundamental concepts in probability theory that describe the distributions of discrete and continuous random variables, respectively.
 
----
 
 ### Probability Mass Function (PMF)
 
@@ -42,7 +40,6 @@ Suppose we have a discrete random variable X representing the number of heads in
 - P(X=2)=41​ (both flips are heads)
     
 
----
 
 ### Probability Density Function (PDF)
 
@@ -97,7 +94,6 @@ The probability that X falls within the interval [0.2,0.5] is:
 
 P(0.2≤X≤0.5)=∫0.20.5​1dx=0.5−0.2=0.3
 
----
 
 ### Key Differences Between PMF and PDF
 
@@ -107,7 +103,6 @@ P(0.2≤X≤0.5)=∫0.20.5​1dx=0.5−0.2=0.3
 |**Probability Calculation**|Gives probability at a specific point directly|Probability calculated over an interval by integrating; probability at a single point is zero|
 |**Visual Representation**|Bar graph (height of bar = probability)|Curve (area under curve = probability)|
 
----
 
 ### Why Are PMF and PDF Important?
 
