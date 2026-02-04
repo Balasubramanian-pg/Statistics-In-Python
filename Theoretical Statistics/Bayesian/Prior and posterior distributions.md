@@ -22,7 +22,6 @@ The **prior distribution** captures this entire mental state. If we were to grap
 *   It represents your initial uncertainty. A **wide, flat prior** means "I have no idea." A **tall, narrow prior** means "I'm already pretty confident it's in this small range."
 *   It's based on previous knowledge, experience, or a deliberate choice to be "uninformative."
 
----
 
 ### The Evidence (and its Likelihood)
 
@@ -39,7 +38,6 @@ This evidence creates a **likelihood function**. The likelihood asks, "For any g
 
 The likelihood function will be a very sharp, narrow curve peaked at 810. It represents the "pull" of the data.
 
----
 
 ### The Posterior Distribution: Your Updated Belief
 
@@ -63,7 +61,6 @@ You multiply your prior distribution by the likelihood function.
 
 The posterior distribution is your new, complete state of knowledge. You can now say, "Given the weight evidence, my belief is that the number of gumballs is centered around 809 (a slight compromise), and there's a 95% probability that the true number is between, say, 795 and 825."
 
----
 
 ### The Iterative Nature of Learning
 
@@ -83,7 +80,6 @@ This is how we learn: **Prior -> Evidence -> Posterior -> New Prior -> More Evid
 | **Shape / Width** | Often wider, reflecting more uncertainty. | Almost always narrower, reflecting less uncertainty. |
 | **Role** | The starting point for inference. | The end result of inference; the answer. Can be used as the prior for the next round of analysis. |
 
----
 
 ### Part 1: The Spectrum of Priors (It's Not Just One Choice)
 
@@ -109,7 +105,6 @@ These are priors designed to have a minimal impact on the final result, letting 
 *   **Strength:** Seems objective and is useful when you truly have no preceding information.
 *   **Risk:** Can sometimes lead to strange mathematical properties. More importantly, true ignorance is rare. Even in the gumball case, you know the answer isn't 10 or 10 million. A weakly informative prior is often a more honest reflection of your true knowledge state.
 
----
 
 ### Part 2: The Magic of Conjugate Priors (The Clean Math)
 
@@ -141,7 +136,6 @@ This is the classic model for understanding probabilities, like a coin's bias or
 
 The posterior is a new curve, peaked at `8 / (8+4) = 0.67`, reflecting the influence of your data. You've learned! Your belief has shifted.
 
----
 
 ### Part 3: The Tug-of-War: Data vs. Prior
 
