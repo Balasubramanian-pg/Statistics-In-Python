@@ -16,7 +16,6 @@ The objective is to achieve:
 
 
 
----
 
 ### Real-World Applications
 
@@ -35,7 +34,6 @@ Cluster analysis is incredibly versatile and is used everywhere:
 *   **Document Analysis:**
     *   Grouping articles or documents by topic (e.g., sorting news articles into categories like "sports," "politics," and "technology").
 
----
 
 ### How Does it Work? Common Clustering Methods
 
