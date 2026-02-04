@@ -15,7 +15,6 @@ There are two main types of Chi-square tests you will encounter:
 
 Let's break them down.
 
----
 
 ### 1. The Chi-Square Goodness of Fit Test
 
@@ -64,7 +63,6 @@ You can see some differences (e.g., you observed 25 blue but expected 30). The C
 *   **If the p-value is low (e.g., < 0.05):** You reject the null hypothesis. The differences are statistically significant. Your bag of M&M's does *not* fit the company's claimed distribution.
 *   **If the p-value is high (e.g., > 0.05):** You fail to reject the null hypothesis. The differences are small enough that they could be due to random chance. You don't have evidence to dispute the company's claim.
 
----
 
 ### 2. The Chi-Square Test of Independence
 
@@ -98,7 +96,6 @@ You do this for all cells to create an expected counts table. The Chi-square tes
 *   **If the p-value is low (e.g., < 0.05):** You reject the null hypothesis. There is a statistically significant association between gender and ice cream preference.
 *   **If the p-value is high (e.g., > 0.05):** You fail to reject the null hypothesis. You do not have enough evidence to say that gender and ice cream preference are related.
 
----
 
 ### Key Concepts and Mechanics
 
