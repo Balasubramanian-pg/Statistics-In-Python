@@ -2,7 +2,6 @@
 
 **Residual analysis** is a diagnostic tool used to validate the assumptions of regression models, such as linear regression or logistic regression. Residuals are the differences between the **observed values** and the **predicted values** from the model. Analyzing residuals helps you assess whether the model is appropriate and if its assumptions are met.
 
----
 
 ### **Why Perform Residual Analysis?**
 1. **Check Linearity**: Ensure the relationship between predictors and the dependent variable is linear.
@@ -11,7 +10,6 @@
 4. **Detect Outliers**: Identify observations that deviate significantly from the model.
 5. **Detect Influential Points**: Find observations that disproportionately influence the model.
 
----
 
 ### **Types of Residuals**
 1. **Raw Residuals**:
@@ -30,7 +28,6 @@
 3. **Studentized Residuals**:
    - Residuals divided by their standard error, accounting for leverage (useful for detecting outliers).
 
----
 
 ### **Key Plots for Residual Analysis**
 
@@ -66,7 +63,6 @@
   - Points with **high leverage** (extreme predictor values) and **large residuals** are influential.
   - Use **Cook’s Distance** to quantify influence.
 
----
 
 ### **Common Issues and Solutions**
 
@@ -78,7 +74,6 @@
 | **Outliers**            | Points far from zero in residual plots.  | Investigate outliers; consider robust regression.|
 | **Influential Points**  | High leverage and large residuals.       | Use Cook’s Distance; consider removing points.|
 
----
 
 ### **Example: Residual Analysis in Linear Regression**
 Suppose you fit a linear regression model to predict **house prices** based on **size** and **age**. After fitting the model, you perform residual analysis:
@@ -94,14 +89,12 @@ Suppose you fit a linear regression model to predict **house prices** based on *
 
 **Solution**: Transform the dependent variable (e.g., log(price)) or add a polynomial term for size.
 
----
 
 ### **Statistical Tests for Residual Analysis**
 1. **Shapiro-Wilk Test**: Tests for normality of residuals.
 2. **Breusch-Pagan Test**: Tests for heteroscedasticity.
 3. **Durbin-Watson Test**: Tests for autocorrelation in residuals (important for time-series data).
 
----
 
 ### **Tools for Residual Analysis**
 - **Python**: Use `statsmodels` or `scikit-learn` to plot residuals.
