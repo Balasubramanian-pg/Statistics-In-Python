@@ -1,6 +1,5 @@
 The expected value and variance are fundamental concepts in probability theory and statistics that help us understand the central tendency and spread of a random variable.
 
----
 
 #### Expected Value
 
@@ -25,7 +24,6 @@ E(X)=∫−∞∞​x⋅f(x)dx
     - E(aX+b)=aE(X)+b
         
 
----
 
 #### Variance
 Variance measures how spread out the values of a random variable are. A **high variance** indicates that the values are spread out over a wider range, while a **low variance** indicates that the values are clustered more closely around the mean. The variance of a random variable X is denoted by Var(X) or σ2, and it is defined as the expected value of the squared deviation from the mean:
@@ -59,7 +57,6 @@ where E(X2) is the expected value of the squared random variable.
     - Var(X+Y)=Var(X)+Var(Y)
         
 
----
 
 #### Examples
 
@@ -94,7 +91,6 @@ Var(X)≈2.9167
 
 So, the variance is approximately **2.9167**.
 
----
 
 **Example 2: Continuous Random Variable**
 
@@ -126,7 +122,6 @@ $$\text{Var}(X) = E(X^2) - [E(X)]^2$$$$\text{Var}(X) = \frac{1}{3} - \left( \fra
 
 So, the variance is **121​**.
 
----
 
 These examples should help illustrate how to calculate the expected value and variance for both discrete and continuous random variables.
 
