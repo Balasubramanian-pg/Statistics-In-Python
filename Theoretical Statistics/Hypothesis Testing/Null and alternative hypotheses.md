@@ -12,7 +12,6 @@ In a legal system like that of the United States, a person is presumed innocent 
 
 This is exactly how hypothesis testing works.
 
----
 
 ### The Null Hypothesis (H₀)
 
@@ -29,7 +28,6 @@ This is exactly how hypothesis testing works.
 *   **Business:** "The new advertisement **does not change** the click-through rate." (CTR with new ad = CTR with old ad)
 *   **Science:** "There is **no relationship** between hours studied and exam scores." (Correlation = 0)
 
----
 
 ### The Alternative Hypothesis (H₁ or Hₐ)
 
@@ -70,7 +68,6 @@ This is used when you have a specific reason to believe the effect will only go 
     *   **H₁:** The new manufacturing process **decreases** defects. (`μ < 3%`)
     *   *You are only interested in finding evidence for a decrease.*
 
----
 
 ### The Goal of Hypothesis Testing
 
