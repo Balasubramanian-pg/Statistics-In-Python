@@ -5,7 +5,6 @@ The most profound shift in Bayesian inference is its definition of probability.
 
 Bayesian inference is the formal process of updating these beliefs.
 
----
 
 ### The Workflow of Bayesian Inference
 
@@ -46,7 +45,6 @@ The posterior is not a single number; it's a new **probability distribution**.
 
 This posterior distribution is the **final answer**. It contains everything you now believe about the new button's CTR.
 
----
 
 ### What Makes Bayesian Inference So Powerful?
 
@@ -70,7 +68,6 @@ In science or business, we are never a blank slate. Bayesian inference provides 
 **4. It Works Well with Small Data**
 The prior helps to "regularize" or stabilize an analysis when you don't have much data. The posterior will be a sensible compromise between your prior belief and the scant evidence, preventing you from making wildly overconfident conclusions from a tiny sample.
 
----
 
 ### The Main Challenge: The Subjectivity of Priors
 
