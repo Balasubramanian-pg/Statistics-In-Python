@@ -92,7 +92,6 @@ SEM is a powerful multivariate technique that allows researchers to test complex
 [!DANGER]
 In Time Series Analysis, assuming independence is a major mistake. The observations are inherently dependent on previous values.
 
----
 
 ## Application Summary
 
