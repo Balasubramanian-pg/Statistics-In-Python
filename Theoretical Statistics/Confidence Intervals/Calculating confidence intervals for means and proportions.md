@@ -12,7 +12,6 @@ A **95% confidence interval** has a very specific, and somewhat counter-intuitiv
 
 Notice that we don't say "there is a 95% chance the true value is in *our* interval." In this frequentist view, the true value is fixed. Our interval is what's random; we just happened to cast one net, and we're pretty confident it's one of the 95% that worked.
 
----
 
 ### The Universal Formula
 
@@ -26,7 +25,6 @@ Where:
 
 Now let's apply this to our two cases.
 
----
 
 ### Part 1: Confidence Interval for a Mean (μ)
 
@@ -71,7 +69,6 @@ Let's calculate a **95% confidence interval**.
 
 **Interpretation:** "We are 95% confident that the true average height of all students at the university is between 167.98 cm and 176.02 cm."
 
----
 
 ### Part 2: Confidence Interval for a Proportion (p)
 
