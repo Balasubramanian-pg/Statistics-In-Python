@@ -8,7 +8,6 @@ The **mean** score for both classes is exactly **50**. If you only looked at the
 
 Let's explore the three main measures: range, variance, and standard deviation.
 
----
 
 ### 1. Range
 
@@ -27,7 +26,6 @@ This is the simplest and most intuitive measure of variability.
     *   **Extremely sensitive to outliers.** It only uses two data points, so a single extreme value can give a misleading picture of the overall spread.
     *   **Example of the flaw:** For the scores `10, 85, 88, 90, 92`, the range is `92 - 10 = 82`, which doesn't represent the fact that most of the scores are tightly clustered.
 
----
 
 ### 2. Variance
 
@@ -64,7 +62,6 @@ Variance is a more sophisticated measure that gives a sense of the average dista
 *   **Cons:**
     *   **The units are squared!** If our data is in dollars, the variance is in "dollars-squared," which is very difficult to interpret intuitively. This leads us to...
 
----
 
 ### 3. Standard Deviation
 
