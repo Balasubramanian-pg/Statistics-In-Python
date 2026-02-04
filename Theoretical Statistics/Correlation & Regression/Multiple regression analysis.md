@@ -18,7 +18,6 @@ The goal is the same—to explain and predict an outcome—but now we acknowledg
     *   **Example:** Does drinking coffee increase your risk of a heart attack? A simple analysis might say yes. But people who drink a lot of coffee might also be more likely to smoke, be under high stress, and sleep less. Are these other factors (confounders) the real cause?
     *   Multiple regression allows us to ask a more nuanced question: "What is the effect of drinking coffee on heart attack risk, **holding smoking, stress, and sleep constant?**" It tries to isolate the unique contribution of coffee.
 
----
 
 ### The Model and Its Interpretation
 
@@ -76,7 +75,6 @@ This tells you the overall performance of the model.
 
 *   **Adjusted R-squared:** You will almost always see this as well. It's a slightly more honest version of R² that penalizes you for adding useless variables to the model, so it's often preferred for comparing models with different numbers of predictors.
 
----
 
 ### Important Considerations in Multiple Regression
 
