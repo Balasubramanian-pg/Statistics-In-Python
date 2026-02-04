@@ -12,4 +12,3 @@ Practical effect:
 • Larger samples → tighter distribution → easier to detect differences
 
 This is why small samples struggle to reach significance.
-
