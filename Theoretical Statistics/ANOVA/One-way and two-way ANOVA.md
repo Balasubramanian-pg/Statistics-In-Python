@@ -22,7 +22,6 @@ Does fertilizer type (Organic, Chemical, None) affect plant growth?
 
 **One-Way ANOVA (Analysis of Variance)** is a statistical method used to determine whether there are any statistically significant differences between the means of **three or more independent (unrelated) groups** based on a **single categorical independent variable (factor).**  
 
----
 
 ## **1.1  When to Use One-Way ANOVA?**  
 You should use a **One-Way ANOVA** when:  
@@ -35,7 +34,6 @@ You should use a **One-Way ANOVA** when:
 - Does **type of diet** (Keto, Vegan, Mediterranean) influence **weight loss**?  
 - Does **drug dosage** (Low, Medium, High) change **recovery time**?  
 
----
 
 ## **1.2. Hypotheses in One-Way ANOVA**  
 - **Null Hypothesis (H₀):**  
@@ -44,7 +42,6 @@ You should use a **One-Way ANOVA** when:
 - **Alternative Hypothesis (H₁):**  
   - *At least one group mean is different.*  
 
----
 
 ## **1.3. Assumptions of One-Way ANOVA**  
 For valid results, the following assumptions must be met:  
@@ -64,7 +61,6 @@ For valid results, the following assumptions must be met:
 - **Non-normal data?** → Use **Kruskal-Wallis test** (non-parametric alternative).  
 - **Unequal variances?** → Use **Welch’s ANOVA**.  
 
----
 
 ## 1.4. How One-Way ANOVA Works  
 ANOVA compares:  
@@ -82,7 +78,6 @@ ANOVA compares:
   - If **F > F-critical** (or **p < 0.05**), reject H₀ → **at least one group mean is different.**  
   - If **F < F-critical**, fail to reject H₀ → **no significant difference.**  
 
----
 ## 1.5. Post-Hoc Tests (If ANOVA is Significant)
 If ANOVA finds a significant difference (**p < 0.05**), you must determine **which specific groups differ** using **post-hoc tests**:  
 
@@ -97,7 +92,6 @@ If ANOVA finds a significant difference (**p < 0.05**), you must determine **whi
 3. **Scheffé’s Test**  
    - Most conservative, works for **unequal sample sizes** and complex comparisons.  
 
----
 
 ## **1.6. Example Calculation (Simplified)**  
 **Scenario:** Compare exam scores across three teaching methods.  
@@ -118,12 +112,10 @@ If ANOVA finds a significant difference (**p < 0.05**), you must determine **whi
 - If **F = 5.8** and **F-critical = 3.1** → **Reject H₀** (significant difference exists).  
 - Then, run **Tukey’s test** to see which groups differ (e.g., Hands-on > Lecture > Online).  
 
----
 
 ## **1.7. Reporting Results (APA Style)**  
 > *A one-way ANOVA was conducted to compare the effect of teaching method on exam scores. There was a statistically significant difference between groups (F(2, 57) = 5.8, p = 0.005). Post-hoc Tukey’s HSD test revealed that Hands-on teaching (M = 82) resulted in significantly higher scores than Online (M = 70, p < 0.01).*  
 
----
 
 ## **1.8. Key Takeaways**  
 -  **One-Way ANOVA compares ≥3 group means** under one categorical factor.  
@@ -133,7 +125,6 @@ If ANOVA finds a significant difference (**p < 0.05**), you must determine **whi
 
 This method is widely used in **experimental research, psychology, medicine, and business** to compare multiple treatments or conditions efficiently. 
 
----
 
 ## **2. Two-Way ANOVA**  
 **Purpose:** Examines the effect of **two independent categorical factors** on a dependent variable, and tests for **interaction effects** between the factors.  
@@ -153,7 +144,6 @@ Does *exercise frequency* (Low, High) and *gender* (Male, Female) affect stress 
 - Significant interaction → the effect of one factor depends on the level of the other.  
 - If no interaction, interpret main effects separately.  
 
----
 
 ### **Key Differences**  
 | Feature         | One-Way ANOVA  | Two-Way ANOVA                             |
@@ -171,7 +161,6 @@ Both methods extend the *t-test* to multiple groups but control for Type I error
 
 **Two-Way ANOVA** is an extension of the One-Way ANOVA that allows researchers to analyze the influence of **two independent categorical variables (factors)** on a **continuous dependent variable**, while also testing for **interaction effects** between the two factors.  
 
----
 
 ## 2.1. When to Use Two-Way ANOVA?  
 
@@ -187,7 +176,6 @@ Use **Two-Way ANOVA** when:
 - Does **teaching method (Online/In-person)** and **student age group (Young/Old)** influence **exam performance**?  
 - Does **diet type (Keto/Vegan)** and **supplement use (Yes/No)** impact **weight loss**?  
 
----
 
 ## 2.2. Hypotheses in Two-Way ANOVA
 
@@ -203,7 +191,6 @@ A Two-Way ANOVA tests **three sets of hypotheses**:
 - **H₀:** The effect of Factor A does **not depend** on Factor B (no interaction).  
 - **H₁:** The effect of Factor A **depends** on Factor B (interaction exists).  
 
----
 
 ## 2.3. Assumptions of Two-Way ANOVA 
 1. **Normality:** The dependent variable should be normally distributed in each group.  
@@ -215,7 +202,6 @@ A Two-Way ANOVA tests **three sets of hypotheses**:
 - **Non-normal data?** → Use **non-parametric alternatives** (e.g., Aligned Rank Transform ANOVA).  
 - **Unequal variances?** → Use **Welch’s adjustment** or **robust ANOVA methods**.  
 
----
 
 ## 2.4. How Two-Way ANOVA Works
 The model partitions **total variance** into:  
@@ -236,7 +222,6 @@ The model partitions **total variance** into:
 - **F-statistic** for each effect is compared to **F-critical** (or checked via p-value).  
 - If **p < 0.05**, the effect is **statistically significant**.  
 
----
 
 ## 2.5. Interpreting Results  
 
@@ -257,7 +242,6 @@ The model partitions **total variance** into:
 ### **Case 3: No Significant Effects**  
 - **Interpretation:** Neither factor nor their interaction influences the outcome.  
 
----
 
 ## 2.6. Example Calculation (Simplified)
 **Scenario:** Does **diet (Keto vs. Vegan)** and **exercise (Yes vs. No)** affect **weight loss (kg)**?  
@@ -276,7 +260,6 @@ The model partitions **total variance** into:
 **Conclusion:**  
 - Both **diet and exercise** independently affect weight loss, but their effects do **not depend on each other**.  
 
----
 
 ## 2,7. Post-Hoc Tests (If Needed)
 - If **main effects** are significant but **no interaction**, use:  
@@ -284,12 +267,10 @@ The model partitions **total variance** into:
 - If **interaction** is significant, use:  
   - **Simple Effects Analysis** (compare groups at each level).  
 
----
 
 ## 2.8. Reporting Results (APA Style) 
 > *A two-way ANOVA was conducted to examine the effects of diet (Keto, Vegan) and exercise (Yes, No) on weight loss. There was a significant main effect of diet, F(1, 16) = 8.0, p = 0.012, with Keto leading to greater weight loss than Vegan. There was also a significant main effect of exercise, F(1, 16) = 30.0, p < 0.001, with exercise resulting in greater weight loss. The interaction effect was not significant, F(1, 16) = 2.0, p = 0.18, indicating that the effect of diet did not depend on exercise.*  
 
----
 
 ## **2.9. Key Takeaways**  
 ✔ **Two-Way ANOVA tests two factors + their interaction.**  
