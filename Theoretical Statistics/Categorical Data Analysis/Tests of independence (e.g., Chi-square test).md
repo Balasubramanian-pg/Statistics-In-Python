@@ -26,7 +26,6 @@ To be rigorous, we frame this in terms of a hypothesis test.
 
 **Our goal is to see if we have enough evidence to reject the Null Hypothesis.**
 
----
 
 ### The Step-by-Step Guide (Using Our Vaccine Example)
 
