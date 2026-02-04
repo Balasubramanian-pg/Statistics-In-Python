@@ -14,7 +14,6 @@ These symptoms are all correlated—a patient with a high fever is also likely t
 
 **Factor Analysis does exactly this:** It takes a set of observed, correlated variables and tries to find the hidden "factors" that are causing them to move together.
 
----
 
 ### A More Concrete Example: Student Performance
 
@@ -37,7 +36,6 @@ Factor analysis would analyze the correlation matrix of all these scores and wou
 
 Instead of dealing with 6 scores, the school can now describe student aptitude using just 2 more fundamental scores. This is the essence of factor analysis: **simplifying complexity by finding the underlying structure.**
 
----
 
 ### Key Terminology and Concepts
 
@@ -65,14 +63,12 @@ Instead of dealing with 6 scores, the school can now describe student aptitude u
     *   **Varimax (Orthogonal):** The most common rotation method. It keeps the factors uncorrelated (independent) of each other.
     *   **Promax (Oblique):** A rotation that allows the factors to be correlated. You would use this if you believe the underlying concepts (e.g., "Quantitative" and "Verbal" ability) might be related to each other.
 
----
 
 ### Types of Factor Analysis
 
 1.  **Exploratory Factor Analysis (EFA):** This is what we've been discussing. You use EFA when you **do not know** the underlying structure of your data. You are *exploring* the data to see how many factors emerge and which variables load onto them.
 2.  **Confirmatory Factor Analysis (CFA):** You use CFA when you **have a pre-existing theory** about the factor structure. You are *testing* or *confirming* that the data fits your hypothesized model. For example, a psychologist might use CFA to confirm that a new personality questionnaire accurately measures the "Big Five" personality traits.
 
----
 
 ### Factor Analysis vs. Principal Component Analysis (PCA)
 
