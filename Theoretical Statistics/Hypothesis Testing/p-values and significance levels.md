@@ -10,7 +10,6 @@ Think of a statistical test as a criminal trial.
 
 Now, here's where the p-value and significance level come in.
 
----
 
 ### 1. Significance Level (alpha or α)
 
@@ -23,7 +22,6 @@ The significance level is the **standard of proof you set *before* you start**. 
 
 Setting α = 0.05 means you're okay with the idea that in 5% of studies where the null hypothesis is true (the drug has no effect), you will wrongly conclude that it *does* have an effect.
 
----
 
 ### 2. The p-value (probability value)
 
@@ -35,7 +33,6 @@ The p-value is the **strength of the evidence calculated *after* you collect you
     *   A **large p-value** (e.g., > 0.05) means: "The data I collected looks plausible, or not that surprising, even if the drug had no effect. The evidence is weak *against* the null hypothesis."
 *   **Analogy:** The prosecutor presents the evidence (your data). The p-value is the answer to the question: "If the defendant were truly innocent (if the null hypothesis were true), what is the probability that we'd see evidence this incriminating just by random chance?"
 
----
 
 ### How They Work Together: The Decision Rule
 
