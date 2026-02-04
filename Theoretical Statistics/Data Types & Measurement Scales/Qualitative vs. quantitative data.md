@@ -8,7 +8,6 @@ Of course. This is one of the most fundamental distinctions in all of data scien
 *   **Qualitative Data:** Deals with **descriptions and things you can observe but not easily measure**. It's concerned with language, interpretation, and understanding context. It answers the "Why?" and "How?".
     *   **Mnemonic:** **Qual**itative is about **qual**ity or characteristics.
 
----
 
 ### Quantitative Data in Detail
 
@@ -38,7 +37,6 @@ Quantitative data is about numerical, measurable facts. It's structured and suit
 *   **Pros:** Objective, conclusive, allows for statistical prediction and generalization, easy to analyze with software.
 *   **Cons:** Lacks context (doesn't explain *why* the numbers are what they are), can oversimplify complex realities.
 
----
 
 ### Qualitative Data in Detail
 
@@ -76,7 +74,6 @@ Qualitative data is descriptive and conceptual. It's about understanding motives
 *   **Pros:** Provides rich, deep understanding and context, answers the "why," excellent for exploratory research and generating new ideas.
 *   **Cons:** Subjective (depends on the researcher's interpretation), time-consuming to collect and analyze, difficult to generalize to a larger population.
 
----
 
 ### How They Work Together: The Perfect Partnership
 
