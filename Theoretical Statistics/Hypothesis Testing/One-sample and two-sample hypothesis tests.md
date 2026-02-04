@@ -4,7 +4,6 @@ Let's use an analogy:
 *   A **one-sample test** is like holding a ruler up to a single object to see if it's a specific length. You have one object and one external standard of comparison.
 *   A **two-sample test** is like taking two different objects and putting them side-by-side to see if they are different from each other. You don't have an external ruler; you are just comparing them directly.
 
----
 
 ### One-Sample Hypothesis Tests
 
@@ -38,7 +37,6 @@ A politician won the last election with **52%** of the vote. They want to know i
     *   **H₁ (Alternative):** The politician's current support is not 52%. (`p ≠ 0.52`)
 *   **Statistical Test:** A **one-sample z-test for a proportion** would be used here.
 
----
 
 ### Two-Sample Hypothesis Tests
 
@@ -72,7 +70,6 @@ A company wants to see if a new website design increases the click-through rate.
     *   **H₁ (Alternative):** The click-through rates are different for the two designs. (`p₁ ≠ p₂`)
 *   **Statistical Test:** A **two-sample z-test for proportions** would be used.
 
----
 
 ### A Special Case: The Paired Sample t-test
 
