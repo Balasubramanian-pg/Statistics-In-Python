@@ -1,4 +1,5 @@
 # Statistics-In-Python
+<img width="736" height="977" alt="image" src="https://github.com/user-attachments/assets/1dfa145f-b80c-4c7f-bacc-5cb20636cb0f" />
 
 Let's build your roadmap.
 
